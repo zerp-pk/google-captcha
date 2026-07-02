@@ -1,0 +1,25 @@
+{
+    "name": "zerp/google-captcha",
+    "description": "Description for google-captcha package",
+    "type": "library",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Zerp\\GoogleCaptcha\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "HafizMMoaz",
+            "email": "hafizmoazkhalid@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zerp\\GoogleCaptcha\\Providers\\GoogleCaptchaServiceProvider"
+            ]
+        }
+    }
+}
