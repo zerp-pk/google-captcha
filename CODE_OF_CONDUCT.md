@@ -41,7 +41,7 @@ public spaces.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to hafizmoazkhalid@gmail.com. All complaints will be reviewed and
+reported to zawatofficials@gmail.com or hafizmoazkhalid@gmail.com. All complaints will be reviewed and
 investigated promptly and fairly.
 
 ## Attribution

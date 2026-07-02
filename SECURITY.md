@@ -8,7 +8,7 @@ Only the latest released version of this package is actively supported with secu
 
 If you discover a security vulnerability, please **do not** open a public issue.
 
-Instead, report it privately by emailing **hafizmoazkhalid@gmail.com** with:
+Instead, report it privately by emailing **zawatofficials@gmail.com** or **hafizmoazkhalid@gmail.com** with:
 
 - A description of the vulnerability and its potential impact
 - Steps to reproduce, including any proof-of-concept code
