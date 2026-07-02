@@ -1,6 +1,6 @@
 {
     "name": "zerp/google-captcha",
-    "description": "Description for google-captcha package",
+    "description": "Google reCAPTCHA (v2/v3) module for the Zerp ERP platform",
     "type": "library",
     "license": "MIT",
     "require": {},

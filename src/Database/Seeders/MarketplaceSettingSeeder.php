@@ -18,7 +18,7 @@ class MarketplaceSettingSeeder extends Seeder
             $files = File::files($marketplaceDir);
             foreach ($files as $file) {
                 if (in_array($file->getExtension(), ['png', 'jpg', 'jpeg', 'gif', 'webp'])) {
-                    $screenshots[] = '/packages/workdo/GoogleCaptcha/src/marketplace/' . $file->getFilename();
+                    $screenshots[] = '/packages/local/GoogleCaptcha/src/marketplace/' . $file->getFilename();
                 }
             }
         }
@@ -33,7 +33,7 @@ class MarketplaceSettingSeeder extends Seeder
                 'sections' => [
                     'hero' => [
                         'variant' => 'hero1',
-                        'title' => 'Google reCAPTCHA Module for ERPGo SaaS',
+                        'title' => 'Google reCAPTCHA Module for Zerp',
                         'subtitle' => 'Secure your forms and prevent spam with Google reCAPTCHA v2 and v3 integration.',
                         'primary_button_text' => 'Install reCAPTCHA Module',
                         'primary_button_link' => '#install',
@@ -55,13 +55,13 @@ class MarketplaceSettingSeeder extends Seeder
                                 'title' => 'reCAPTCHA v2 & v3 Support',
                                 'description' => 'Comprehensive support for both reCAPTCHA v2 checkbox verification and v3 invisible protection with advanced bot detection capabilities. Flexible version selection allows you to choose between user-interactive challenges or seamless background verification based on your security requirements.',
                                 'keyPoints' => ['Dual version support', 'Checkbox and invisible modes', 'Advanced bot detection', 'Flexible security options'],
-                                'screenshot' => '/packages/workdo/GoogleCaptcha/src/marketplace/image1.png'
+                                'screenshot' => '/packages/local/GoogleCaptcha/src/marketplace/image1.png'
                             ],
                             [
                                 'title' => 'Easy Configuration & Management',
                                 'description' => 'Intuitive admin interface with simple setup process and comprehensive configuration options for seamless reCAPTCHA integration. Built-in setup guide with direct links to Google console ensures quick deployment and optimal security configuration.',
                                 'keyPoints' => ['Intuitive admin interface', 'Built-in setup guide', 'Real-time configuration', 'Google console integration'],
-                                'screenshot' => '/packages/workdo/GoogleCaptcha/src/marketplace/image2.png'
+                                'screenshot' => '/packages/local/GoogleCaptcha/src/marketplace/image2.png'
                             ]
                         ]
                     ],
