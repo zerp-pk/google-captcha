@@ -3,7 +3,7 @@
 namespace Zerp\GoogleCaptcha\Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use Workdo\LandingPage\Models\MarketplaceSetting;
+use Zerp\LandingPage\Models\MarketplaceSetting;
 use Illuminate\Support\Facades\File;
 
 class MarketplaceSettingSeeder extends Seeder
