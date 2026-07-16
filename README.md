@@ -13,15 +13,15 @@ Google reCAPTCHA (v2/v3) integration module for the [Zerp](https://github.com/ze
 composer require zerp/google-captcha
 ```
 
-The package auto-registers via Laravel's package discovery — no manual service provider registration needed.
+The package auto-registers via Laravel's package discovery - no manual service provider registration needed.
 
 ## What it provides
 
-- `Zerp\GoogleCaptcha\Providers\GoogleCaptchaServiceProvider` — boots routes, migrations, and a `recaptcha` validation rule
+- `Zerp\GoogleCaptcha\Providers\GoogleCaptchaServiceProvider` - boots routes, migrations, and a `recaptcha` validation rule
 - `recaptcha` validator rule, backed by `Zerp\GoogleCaptcha\Rules\RecaptchaRule`
 - Settings route: `POST /google-captcha/settings/update` (route name `google-captcha.settings.update`), guarded by `web`, `auth`, `verified`, and `PlanModuleCheck:GoogleCaptcha` middleware
 - Frontend settings component and field components under `src/Resources/js`
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT - see [LICENSE](LICENSE).
